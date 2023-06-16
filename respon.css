@@ -1,0 +1,29 @@
+/* Mobile S */
+@media screen and (max-width: 576px) {
+    .carousel-item .img-1, .carousel-item .img-2, .carousel-item .img-3, .carousel-item .img-4, .carousel-item .img-5 {
+        width: auto;
+        height: 250px;
+    }
+    .animation_1 {
+        position: relative;
+        top: 140px;
+    }
+    .acceuil_1_1 {
+        display: flex;
+        flex-direction: column;
+    }
+    .border2 {
+        position: relative;
+        top: 20px;
+    }
+    
+
+    
+}
+
+/* Tablette */
+@media only screen and (max-width: 768px) {
+    
+
+    
+}
