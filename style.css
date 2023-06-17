@@ -111,6 +111,7 @@ a {
 
 
 
+
 /* New.HTML Section 1*/
 
 .carousel-item .img-1 {
@@ -158,6 +159,7 @@ a {
 #text h3 {
     position: relative;
     bottom: 300px;
+    left: 30px;
     color: white;
     font-weight: bold;
     border: 1px solid gray;
@@ -171,9 +173,11 @@ a {
 @keyframes warriors {
     0%{
         transform: translateX(-100%);
+        
     }
     50%{
-        transform: translateX();
+        transform: translateX(80%);
+        color: black;
     }   
 }
 @keyframes img-1 {

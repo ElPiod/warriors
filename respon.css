@@ -17,7 +17,7 @@
         position: relative;
         top: 20px;
     }
-    /*INDEX acceuil 3 */
+    /* acceuil 3 */
     #acceuil_3 {
         position: relative;
         top: 30px;
@@ -35,10 +35,14 @@
         width: auto;
         height: 250px;
     }
-    
-    
-
-    
+    #text h3 {
+        position: relative;
+        bottom: 0px;
+        top: -100px;
+    }  
+    #text .h3 {
+        width: 70%;
+    } 
 }
 
 /* Tablette */
