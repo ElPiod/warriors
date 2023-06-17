@@ -1,21 +1,41 @@
 /* Mobile S */
 @media screen and (max-width: 576px) {
-    .carousel-item .img-1, .carousel-item .img-2, .carousel-item .img-3, .carousel-item .img-4, .carousel-item .img-5 {
-        width: auto;
-        height: 250px;
+    /* acceuil_1_1 */
+    .acceuil_img {
+        height: auto;
     }
     .animation_1 {
         position: relative;
-        top: 140px;
+        top: 50px;
     }
     .acceuil_1_1 {
         display: flex;
         flex-direction: column;
     }
+    
     .border2 {
         position: relative;
         top: 20px;
     }
+    /*INDEX acceuil 3 */
+    #acceuil_3 {
+        position: relative;
+        top: 30px;
+    }
+
+
+
+
+
+
+
+
+    /* New.HTML section 1 */
+    .carousel-item .img-1, .carousel-item .img-2, .carousel-item .img-3, .carousel-item .img-4, .carousel-item .img-5 {
+        width: auto;
+        height: 250px;
+    }
+    
     
 
     

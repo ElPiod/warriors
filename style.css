@@ -4,6 +4,7 @@
 }
 body {
     outline: none;
+    
 }
 
 a {
@@ -35,10 +36,10 @@ a {
 }
 
 /* Index.HTML */
-.acceuil_img {
+.acceuil_img, .acceuil_img1 {
     background-image: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url(images/acceuil-img.avif);
     width: 100%;
-    height: 700px;
+    height: 580px;
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -53,10 +54,10 @@ a {
     font-size: 20px;
     border-radius: 20px;
 }
+
 .animation_1 {
     animation: animation_1 6s ease;
 }
-
 
 .acceuil_logo a {
     background-color: black;
@@ -68,6 +69,7 @@ a {
 .acceuil_logo_warriors {
     float: right;
 }
+
 .acceuil_logo_warriors .warriors {
    width: 100%;
    position: relative;
@@ -88,21 +90,28 @@ a {
     animation: animation_2 6s ease;
 }
 
-#autotext {
-    letter-spacing: 0.05em;
-}
-
 .img-coach {
     height: 300px;
 }
+/* section 3 */
+
+.a3_text {
+    position: relative;
+    top: 30px;
+}
+
+/* footer */
+.acceuil_footer {
+    background: gray;
+    padding: 30px;
+}
 
 
 
 
 
 
-
-/* New.HTML */
+/* New.HTML Section 1*/
 
 .carousel-item .img-1 {
 	background-image: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url(images/groupe.jpeg);
@@ -128,7 +137,8 @@ a {
     background-size: cover;
     animation: img-1 4s ease;
 
-}.carousel-item .img-4 {
+}
+.carousel-item .img-4 {
 	background-image: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url(images/groupe3.jpeg);
     width: 100%;
     height: 700px;
@@ -152,7 +162,7 @@ a {
     font-weight: bold;
     border: 1px solid gray;
     width: 200px;
-    animation: warriors 2s ease-in-out;
+    animation: warriors 6s ease-in-out;
 }
 
 

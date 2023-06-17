@@ -25,24 +25,31 @@ click.addEventListener('click', () => {
     click.style.transition = '2s' 
     click.style.background = 'black'
 })
-//Click sur logo acceuil_1_1
+//scroll id acceuil_1
 
+// Animation acceuil_1_1
 const tilte = document.getElementById('autotext')
 const tilte1 = document.getElementById('autotext1')
+const tilte2 = document.getElementById('autotext2')
 
-const text = `Je suis Abou Diallo. J'ai 24 ans, j'habite à  Thies plus précisément Hersent`
-const text1 = `Je suis Samba Gueye. J'ai 20 ans, j'habite à Kedougou j'habite à Thies plus précisément Hersent`
+const text = `Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque distinctio quos, minima, perferendis aspernatur deleniti assumenda delectus ullam commodi facilis beatae vitae iste repellat quia doloribus fugit ea omnis fugiat.`
+const text1 = `Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque distinctio quos, minima, perferendis aspernatur deleniti assumenda delectus ullam commodi facilis beatae vitae iste repellat quia doloribus fugit ea omnis fugiat.`
+const text2 = `Football Club Warriors.`
 
 let index = 0
 let index1 = 0
+let index2 = 0
 
 const play = () => {
     tilte.innerHTML = text.slice(0, index)
     tilte1.innerHTML = text1.slice(0, index1)
+    tilte2.innerHTML = text2.slice(0, index2)
+
 
     index++
     index1++
-    if(index & index1 > text.length) {
+    index2++
+    if(index & index1 & index2 > text.length) {
         
     }
 }
