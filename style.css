@@ -74,6 +74,7 @@ a {
    width: 100%;
    position: relative;
    bottom: 40px;
+   animation: float 6s ease-in-out infinite;
 }
 /* acceuil_2 */
 .acceuil_1_1 {
@@ -166,9 +167,67 @@ a {
     width: 200px;
     animation: warriors 6s ease-in-out;
 }
+/* section new_2 */
+.gray {
+    background: gainsboro;
+    height: auto;
+}
+.new_2 .new_border {
+    background-image: url(images/coach.jpeg);
+    background-size: cover;
+    border: 1px solid black;
+    width: 250px;
+    height: 250px;
+    position: relative;
+    top: 50px;
+    left: 30px;
+    transition: 5s;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.other_border {
+    border: 8px solid white;
+    width: 250px;
+    height: 250px;
+    position: relative;
+    top: -220px;
+    transition: 2s;
+}
+.other_border:hover {
+    transform: translate(30px, 20px);
+}
+
+.new_logo {
+    display: flex;
+    justify-content: center
+}
+.new_logo img {
+    width: 100px;
+    height: 100px;
+}
+.new_textes {
+    position: relative;
+    top: -120px;
+}
+
+
+
 
 
 /* Amination CSS */
+@keyframes float {
+    0%{
+        transform: translateY(0px);
+        
+    }
+    50%{
+        transform: translateY(-30px);
+        color: black;
+    }  
+    100%{
+        transform: translateY(0px);
+    }
+    
+}
 
 @keyframes warriors {
     0%{
@@ -182,7 +241,7 @@ a {
 }
 @keyframes img-1 {
     50%{
-        transform: scale(1.2);
+        transform: scale(0.9);
     }
 }
 @keyframes animation_1 {

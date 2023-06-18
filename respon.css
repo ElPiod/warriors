@@ -6,7 +6,7 @@
     }
     .animation_1 {
         position: relative;
-        top: 130px;
+        top: 70px;
     }
     .acceuil_1_1 {
         display: flex;
@@ -24,12 +24,6 @@
     }
 
 
-
-
-
-
-
-
     /* New.HTML section 1 */
     .carousel-item .img-1, .carousel-item .img-2, .carousel-item .img-3, .carousel-item .img-4, .carousel-item .img-5 {
         width: auto;
@@ -43,6 +37,10 @@
     #text .h3 {
         width: 70%;
     } 
+    .new_top1, .new_top2{
+        margin-top: -150px;
+    }
+    
 }
 
 /* Tablette */
