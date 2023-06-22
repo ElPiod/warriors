@@ -11,31 +11,25 @@ window.addEventListener('scroll', () => {
     }
 })
 
-// New_2
-const tilte = document.getElementById('lorem')
-const tilte1 = document.getElementById('lorem1')
 
+const tilte = document.getElementById('h5')
+const text = `cliquez sur la photo pour voir les informations !!!`
 
-const text = `Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque distinctio quos, minima, perferendis aspernatur deleniti assumenda delectus ullam commodi facilis beatae vitae iste repellat quia doloribus fugit ea omnis fugiat.`
-const text1 = `Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque distinctio quos, minima, perferendis aspernatur deleniti assumenda delectus ullam commodi facilis beatae vitae iste repellat quia doloribus fugit ea omnis fugiat.`
 
 
 let index = 0
-let index1 = 0
+
 
 
 const play = () => {
     tilte.innerHTML = text.slice(0, index)
-    tilte1.innerHTML = text1.slice(0, index1)
 
 
     index++
-    index1++
 
-    if(index & index1 > text.length) {
-        index = 0
-        index1 = 0
+    if(index > text.length) {
+        
     }
 }
 
-let timer = setInterval(play, 100)
+let timer = setInterval(play, 150)

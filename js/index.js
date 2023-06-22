@@ -50,11 +50,11 @@ const play = () => {
     index1++
     index2++
     if(index & index1 & index2 > text.length) {
-        
+        index2 = 0
     }
 }
 
-let timer = setInterval(play, 200)
+let timer = setInterval(play, 100)
 
 
 

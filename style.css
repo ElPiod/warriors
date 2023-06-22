@@ -123,14 +123,6 @@ a {
     background-size: cover;
     animation: img-1 4s ease;
 }
-.carousel-item .img-2 {
-	background-image: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url(images/groupe1.jpeg);
-    width: auto;
-    height: 700px;
-    background-repeat: no-repeat;
-    background-size: cover;
-    animation: img-1 4s ease;
-}
 .carousel-item .img-3 {
 	background-image: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url(images/groupe2.jpeg);
     width: auto;
@@ -172,42 +164,63 @@ a {
     background: gainsboro;
     height: auto;
 }
-.new_2 .new_border {
-    background-image: url(images/coach.jpeg);
+.new_border {
+    background-image: url(images/piod.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
     background-size: cover;
-    border: 1px solid black;
-    width: 250px;
-    height: 250px;
-    position: relative;
-    top: 50px;
-    left: 30px;
-    transition: 5s;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    border: 4px solid gray;
+    width: 600px;
+    height: 400px;
 }
-.other_border {
-    border: 8px solid white;
-    width: 250px;
-    height: 250px;
-    position: relative;
-    top: -220px;
-    transition: 2s;
+.border_child {
+    transition: 1s;
 }
-.other_border:hover {
-    transform: translate(30px, 20px);
+.new_border p,
+.new_border1 p {
+    visibility: hidden;
+
 }
+.new_border:hover .border_child{
+    background: white;
+    opacity: 0.7;
+    width: 400px;
+    height: 300px;
+    margin: auto;
+}
+.new_border:hover .border_child p,
+.new_border1:hover .border_child p {
+    visibility: visible;
+}
+
+.new_border1 {
+    background-image: url(images/piod.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    border: 4px solid gray;
+    width: 300px;
+    height: 188px;
+}
+
+.new_border1:hover .border_child {
+    background: white;
+    opacity: 0.7;
+    width: 200px;
+    height: 180px;     
+    margin: auto;
+}
+
 
 .new_logo {
     display: flex;
     justify-content: center
 }
 .new_logo img {
-    width: 100px;
-    height: 100px;
+    width: 150px;
+    height: 150px;
 }
-.new_textes {
-    position: relative;
-    top: -120px;
-}
+
 
 
 
@@ -241,7 +254,7 @@ a {
 }
 @keyframes img-1 {
     50%{
-        transform: scale(0.9);
+        transform: scale(1);
     }
 }
 @keyframes animation_1 {

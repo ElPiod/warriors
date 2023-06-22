@@ -6,7 +6,7 @@
     }
     .animation_1 {
         position: relative;
-        top: 70px;
+        top: 120px;
     }
     .acceuil_1_1 {
         display: flex;
@@ -29,6 +29,12 @@
         width: auto;
         height: 250px;
     }
+    .new_alls {
+        display: flex;
+        flex-direction: column;   
+        margin-left: 0px;
+    
+    }
     #text h3 {
         position: relative;
         bottom: 0px;
@@ -37,15 +43,31 @@
     #text .h3 {
         width: 70%;
     } 
-    .new_top1, .new_top2{
-        margin-top: -150px;
+    /* section 2 new.html */
+    .new_border {
+        width: 300px;
+        height: 400px;
+        margin-bottom: 20px;
     }
-    
+    .new_border:hover .border_child{
+        width: 290px;
+        height: 300px; 
+    }
 }
 
 /* Tablette */
 @media only screen and (max-width: 768px) {
-    
+    /* New.html */
+    /* section_2 */
+    .new_alls {  
+        display: flex;
+        flex-direction: column;
+        position: relative;
+        left: 0px;
+    }
+    .new_top1, .new_top2{
+        margin-top: -150px;
+    }
 
     
 }
