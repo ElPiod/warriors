@@ -33,3 +33,34 @@ const play = () => {
 }
 
 let timer = setInterval(play, 150)
+
+// section new_4
+const new4 = document.getElementById('nouveau')
+window.addEventListener('scroll', () => {
+    if (window.scrollY > 1304) {
+        new4.style.transition = '5s'
+        new4.style.transform = 'scale(0.9)' 
+        new4.style.transform = 'translateY(-10%)'
+        new4.style.visibility = 'visible' 
+    } else if (window.scrollY > 1204) {
+        new4.style.transition = 'none'
+        new4.style.visibility = 'hidden' 
+    } else {
+        new4.style.visibility = 'hidden'    
+    }
+})
+
+const maillot1 = document.getElementById('maillot1')
+maillot1.addEventListener('click', () => {
+    maillot1.style.background = 'white'
+})
+
+const maillot2 = document.getElementById('maillot2')
+maillot2.addEventListener('click', () => {
+    maillot2.style.background = 'white'
+})
+
+
+
+
+
