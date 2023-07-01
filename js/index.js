@@ -11,6 +11,7 @@ window.addEventListener('scroll', () => {
     }
 })
 
+
 // Animation Index.Html
 const bienvenue = document.getElementById('bienvenue')
 const click = document.getElementById('anim')
@@ -34,7 +35,7 @@ const tilte2 = document.getElementById('autotext2')
 
 const text = `Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque distinctio quos, minima, perferendis aspernatur deleniti assumenda delectus ullam commodi facilis beatae vitae iste repellat quia doloribus fugit ea omnis fugiat.`
 const text1 = `Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque distinctio quos, minima, perferendis aspernatur deleniti assumenda delectus ullam commodi facilis beatae vitae iste repellat quia doloribus fugit ea omnis fugiat.`
-const text2 = `Football Club Warriors.`
+const text2 = `Warriors © 2023 Tous droits réservés.`
 
 let index = 0
 let index1 = 0

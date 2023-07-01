@@ -22,6 +22,21 @@
         position: relative;
         top: 30px;
     }
+    .logo a {
+        margin-left: -15px;
+    }
+    /* Equipe */
+    .sec_equipe1 .row .col-md-12 {
+        margin-top: 100px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 40px;
+    }
+
+    .sec_equipe1 .the_img {
+        margin-top: -80px;
+    }
 
 
     /* New.HTML section 1 */
@@ -53,6 +68,12 @@
         width: 290px;
         height: 300px; 
     }
+
+    /* sexction 4 */
+    .pn4 {
+        margin-top: 10px;
+    }
+
 }
 
 /* Tablette */
